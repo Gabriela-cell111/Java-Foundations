@@ -2,7 +2,7 @@ package variaveis;
 
 import java.util.Scanner;
 
-public class Desafio {
+public class Desafio1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -11,7 +11,6 @@ public class Desafio {
 
         System.out.println("Tamanho da cidade de:" );
         double cidade = sc.nextDouble();
-
 
         System.out.println("A População é :" + povo + "\nTamnho da cidade é:" + cidade + "km²");
         sc.close();

@@ -8,9 +8,6 @@ public class Exemplo{
             double nota2 = 10;
             double media = (nota1 + nota2) / 2;
 
-            char Letra = 'A'; // one letter
-            String nome = "seu nome";
-
             System.out.println("A sua média foi de "  + media);
 
         }

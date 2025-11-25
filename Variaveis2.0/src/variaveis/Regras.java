@@ -12,6 +12,10 @@ public class Regras {
         String nomeCompleto = "Ana Julia";
         String nome_completo = "Julia Ana";
         System.out.println(nomeCompleto);
+
+        // char Letra = 'A'; // one letter
+        // String nome = "seu nome";
+
     }
 }
 

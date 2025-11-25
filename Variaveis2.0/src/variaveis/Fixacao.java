@@ -20,7 +20,7 @@ public class Fixacao {
         // barra invertida significa quebra de linha
 
         //Metodo NextiNT - CAPTURAR NUMEROS
-        int idade = sc. nextInt();
+        int idade = sc.nextInt();
         //Metodo NextDouble -CAPTURAR NUEMROS DECIMAIS
         double altura = sc.nextDouble();
 
