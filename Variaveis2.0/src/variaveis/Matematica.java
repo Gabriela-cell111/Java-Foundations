@@ -12,6 +12,7 @@ public class Matematica {
         double raizQuadrada = Math.sqrt(numero);
 
         //Randow - Gerar valores aleatórios
+
         int aleatorio = (int) (Math.random() *10);
         System.out.println(aleatorio);
 

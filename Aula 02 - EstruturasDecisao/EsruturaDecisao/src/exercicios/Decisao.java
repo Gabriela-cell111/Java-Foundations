@@ -1,13 +1,25 @@
 package exercicios;
 
+import java.util.Scanner;
+
 public class Decisao {
     public static void main(String[] args) {
-        int nota = 50;
-        if (nota >=70) {
-            System.out.println("Aprovado");
-        } else {
-            System.out.println("Reprovado");
+       Scanner sc = new Scanner(System.in);
+        System.out.println("Digite a nota: ");
+        int nota = sc.nextInt();
 
+
+        if (nota >= 70) {
+            System.out.println("Aprovado");
         }
+        else if (nota >=50) {
+            System.out.println("Recuperação");
+        }
+        else {
+            System.out.println("Reprovado");
+        }
+
+
+
     }
 }
