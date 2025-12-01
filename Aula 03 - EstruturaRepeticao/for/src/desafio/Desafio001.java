@@ -11,13 +11,21 @@ public class Desafio001 {
         System.out.println("Digite um numero: ");
         int numero = sc.nextInt();
 
-        int fatorial = 0;
-        for (int i = numero; i > 1; i--) {
-            fatorial = numero * i;
-            System.out.println(fatorial);
-        }
-        if (fatorial != numero) {
-            System.out.println("O valor digitado foi: " + fatorial);}
-    }
+        int fatorial = 1;
+        if (numero < 0) {
+            System.out.println("Não existe  fatorial para números negativos");
 
+        } else {
+            for (int i = numero; i <= numero; i++) {
+                fatorial = fatorial * i;
+                System.out.println("O fatoril é igual á " + fatorial);
+                sc.close();
+            }
+        }
     }
+}
+
+
+
+
+
