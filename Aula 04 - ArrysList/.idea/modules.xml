@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArryList/ArryList.iml" filepath="$PROJECT_DIR$/ArryList/ArryList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Aula 04 - ArrysList.iml" filepath="$PROJECT_DIR$/.idea/Aula 04 - ArrysList.iml" />
+    </modules>
+  </component>
+</project>
