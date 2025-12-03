@@ -18,9 +18,9 @@ public class Desafio04 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Qual caracter você deseja remover:");
-        String caracter = sc.nextLine();
+        String caracter = sc.nextLine().toUpperCase();
 
-        palavras.removeIf(letras -> letras.contains(caracter));
+        palavras.removeIf(letras -> letras.toUpperCase().contains(caracter));
         for(String palavra : palavras){
             System.out.println(palavra);
         }
