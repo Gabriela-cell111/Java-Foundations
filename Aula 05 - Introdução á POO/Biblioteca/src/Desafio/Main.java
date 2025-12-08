@@ -27,23 +27,22 @@ public class Main {
         System.out.println(estoque.toString());
 
         System.out.println("Você deseja:");
-        System.out.println("1 - Incrementar:");
-        System.out.println("2 - Decrementar:");
+        System.out.println("1 - Abastecer");
+        System.out.println("2 - Vender");
         int opcao = sc.nextInt();
 
         switch (opcao) {
             case 1:
                 System.out.println("Quantidade: ");
-                int retorno = sc.nextInt();
-                estoque.retorno(retorno);
+                int abastecer = sc.nextInt();
+                estoque.abastecer(abastecer);
                 System.out.println(estoque.toString());
                 break;
 
-
                 case 2:
                     System.out.println("Quantidade: ");
-                    int retirar = sc.nextInt();
-                    estoque.retira(retirar);
+                    int venda = sc.nextInt();
+                    estoque.venda(venda);
                     System.out.println(estoque.toString());
                     break;
                     default:
