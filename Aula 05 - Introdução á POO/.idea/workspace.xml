@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0077ed-514a-4ea1-9055-928e7b1acd7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Encapsulamento/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="9d0077ed-514a-4ea1-9055-928e7b1acd7c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764951666506</updated>
       <workItem from="1764951668193" duration="83000" />
-      <workItem from="1765495459680" duration="386000" />
+      <workItem from="1765495459680" duration="458000" />
     </task>
     <servers />
   </component>
