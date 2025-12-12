@@ -76,7 +76,6 @@ public class Main {
                     );
 
                 }
-
                 case 4 -> {
                     listaPedidos.listarPedidos();
                     System.out.println("Informe o id do lanche que deseja remover: ");
