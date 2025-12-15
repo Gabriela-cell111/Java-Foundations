@@ -10,8 +10,8 @@ public class GerenciarAlunos {
     //local host: próprio computador
     // Porta: 3306
     private final String url = "jdbc:mysql://localhost:3306/escola";
-    private final String usuario = "root";
-    private final String senha = "";  // altere
+    private final String usuario = "";
+    private final String senha = "admin";  // altere
 
 
     // Método para conectar no banco de dados
@@ -20,5 +20,8 @@ public class GerenciarAlunos {
     }
 
     //----Cadastrar aluno----//
+    public void cadastrarAluno(Aluno aluno){
+        
+    }
 
 }
