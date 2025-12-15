@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4365b0d-f68b-4139-ac78-16ae0332e2a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/org/exercios/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/org/exercios/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/org/exercios/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/org/exercios/Ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/org/exercios/Ex5.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4365b0d-f68b-4139-ac78-16ae0332e2a1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -34,6 +23,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
@@ -58,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765815800495</updated>
-      <workItem from="1765815801606" duration="6000" />
+      <workItem from="1765815801606" duration="200000" />
     </task>
     <servers />
   </component>
