@@ -36,6 +36,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
@@ -66,7 +67,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765816002904</updated>
-      <workItem from="1765816004579" duration="4853000" />
+      <workItem from="1765816004579" duration="6112000" />
+      <workItem from="1765823162934" duration="10000" />
+      <workItem from="1765823545232" duration="9000" />
+      <workItem from="1765823675777" duration="9000" />
+      <workItem from="1765823999185" duration="24000" />
+      <workItem from="1765824200072" duration="6000" />
+      <workItem from="1765824300385" duration="17000" />
+      <workItem from="1765824393046" duration="40000" />
     </task>
     <servers />
   </component>
