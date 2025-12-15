@@ -8,7 +8,7 @@ import java.sql.SQLException;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 public class Main {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args){
         GerenciarRoupa gerenciarRoupa = new GerenciarRoupa();
         Roupa roupa = new Roupa("Puma", "Tênis", "P", 5, 29.99);
 

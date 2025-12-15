@@ -20,8 +20,8 @@ public class GerenciarRoupa {
     }
     // Cadastramento:
 
-    public void cadastrarRoupa (Roupa roupa) throws SQLException {
-        String sql = "INSERT INTO loja (marca, tipo, tamanho , quantidade , valor) " +
+    public void cadastrarRoupa (Roupa roupa) {
+        String sql = "INSERT INTO roupa (marca, tipo, tamanho , quantidade , valor) " +
                 "VALUES (?, ?, ?, ?, ?)";
         try {
             Connection conexao = conectar();

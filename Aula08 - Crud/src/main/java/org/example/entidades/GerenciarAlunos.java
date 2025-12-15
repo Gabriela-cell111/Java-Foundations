@@ -35,7 +35,21 @@ public class GerenciarAlunos {
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+    }
 
+    //----Excluir aluno----//
+    public void excluirAluno(int id) {
+        String sql = "DELETE FROM alunos WHERE id = ?";
+        Connection conexao = null;
+        try {
+            PreparedStatement stmt = conexao.prepareStatement(sql);
+            stmt.setInt(1, id);
+            stmt.executeUpdate();
+            System.out.println("Aluno excluido com sucesso!");
+            conexao = conectar();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 }
