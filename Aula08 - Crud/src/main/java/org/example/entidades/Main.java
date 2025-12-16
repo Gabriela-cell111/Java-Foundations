@@ -8,7 +8,7 @@ public class Main {
         Aluno aluno1 = new Aluno("Gabriela" , 10 , 10);
 
         gerenciarAlunos.cadastrarAluno(aluno1);
-        gerenciarAlunos.excluirAluno(1);
+
 
 
 

@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -40,6 +40,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aluno/Documents/Java-Foundations/Aula08-Desafio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +75,7 @@
       <workItem from="1765824209843" duration="88000" />
       <workItem from="1765824318347" duration="70000" />
       <workItem from="1765824436880" duration="2741000" />
+      <workItem from="1765901173282" duration="300000" />
     </task>
     <servers />
   </component>
