@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44461e7c-c62b-40e5-ab2f-cc0b3c62362c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Aula08-Desafio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula08-Desafio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula08-Desafio/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula08-Desafio/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula08-Desafio/src/main/java/org/example/entidades/GerenciarRoupa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula08-Desafio/src/main/java/org/example/entidades/GerenciarRoupa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula08-Desafio/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula08-Desafio/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aula08-Desafio/target/classes/org/example/entidades/GerenciarRoupa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula08-Desafio/target/classes/org/example/entidades/GerenciarRoupa.class" afterDir="false" />
-    </list>
+    <list default="true" id="44461e7c-c62b-40e5-ab2f-cc0b3c62362c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +97,7 @@
       <workItem from="1765909877337" duration="19000" />
       <workItem from="1765909968931" duration="14000" />
       <workItem from="1765911186743" duration="109000" />
-      <workItem from="1765911324618" duration="1583000" />
+      <workItem from="1765911324618" duration="2547000" />
     </task>
     <servers />
   </component>
