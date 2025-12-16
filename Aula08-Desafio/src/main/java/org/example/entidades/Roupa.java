@@ -57,7 +57,7 @@ public class Roupa {
 
     @Override
     public String toString() {
-        return  "|" + "Marca: " + marca + "|" + "Tipo: "+ tipo + "|" +
+        return "|" + "Marca: " + marca + "|" + "Tipo: " + tipo + "|" +
                 "| " + "Tamanho: " + tamanho + "|" + "Quantidade" + quantidade + "|" +
                 "Valor: " + valor;
     }
