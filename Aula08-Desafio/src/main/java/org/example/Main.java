@@ -10,8 +10,11 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args){
         GerenciarRoupa gerenciarRoupa = new GerenciarRoupa();
-        Roupa roupa = new Roupa("Puma", "Tênis", "P", 5, 29.99);
+        Roupa roupa = new Roupa("Vans", "Meias", "M", 50, 25.99);
 
-        gerenciarRoupa.cadastrarRoupa(roupa);
+//        gerenciarRoupa.cadastrarRoupa(roupa);
+//        gerenciarRoupa.excluirRoupa(1);
+//        gerenciarRoupa.alterarRoupa(2 , "Vans", "Bermuda", "G", 90, 89.99);
+          gerenciarRoupa.listarRoupa();
     }
 }

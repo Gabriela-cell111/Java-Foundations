@@ -1,9 +1,6 @@
 package org.example.entidades;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class GerenciarAlunos {
 
@@ -30,7 +27,6 @@ public class GerenciarAlunos {
             stmt.setDouble(2, aluno.getNota());
             stmt.setDouble(3, aluno.getNota2());
             stmt.executeUpdate();
-            stmt.close();
             System.out.println("Aluno cadastrado com sucesso!");
 
         } catch (SQLException e) {
@@ -46,7 +42,6 @@ public class GerenciarAlunos {
             PreparedStatement stmt = conexao.prepareStatement(sql);
             stmt.setInt(1, id);
             stmt.executeUpdate();
-            stmt.close();
             System.out.println("Aluno excluido com sucesso!");
 
         } catch (SQLException e) {
@@ -56,7 +51,7 @@ public class GerenciarAlunos {
 
     //----Atualizar cadastro do aluno----\\
     public void alterarAluno(int id, String nome, double nota, double nota2) {
-        String sql = "UPDATE alunos SET nome = ?, nota1 = ?, nota2 = ? , WHERE id = ?";
+        String sql = "UPDATE alunos SET nome = ?, nota = ?, nota2 = ?  WHERE id = ?";
         try {
             Connection conexao = conectar();
             PreparedStatement stmt = conexao.prepareStatement(sql);
@@ -65,7 +60,6 @@ public class GerenciarAlunos {
             stmt.setDouble(3, nota2);
             stmt.setInt(4, id);
             stmt.executeUpdate();
-            stmt.close();
             System.out.println("Aluno alterado com sucesso!");
 
         } catch (SQLException e) {
@@ -73,5 +67,33 @@ public class GerenciarAlunos {
         }
     }
 
-    //---Listar aluno----\\
+    //-----Listar alunos----\\
+    public void listarAlunos() {
+        String sql = "SELECT * FROM alunos";
+        try{
+            Connection conexao = conectar();
+            PreparedStatement stmt = conexao.prepareStatement(sql);
+            ResultSet rs = stmt.executeQuery(); //Armazenar um objeto do banco de dados - ResultSet
+            //Não usa o for porque não sabe o tamanho
+
+            while (rs.next()) {
+                System.out.println(" | " + rs.getInt("id") + " | " +
+                                   rs.getString("nome") + " | " +
+                                   rs.getDouble("nota") + " | " +
+                                   rs.getDouble("nota2") + "| " +
+                                   calcularMedia(rs.getDouble("nota"), rs.getDouble("nota2"))
+                );
+            }
+
+
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private double calcularMedia(double nota, double nota2) {
+        return (nota + nota2)/2;
+    }
+
+
 }
