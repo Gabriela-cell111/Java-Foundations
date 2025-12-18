@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0e7779-5e8b-46fc-915e-6cb5e8039d5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lojaroupa/model/DadosRoupa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lojaroupa/model/RoupaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lojaroupa/controller/ControllerRoupa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lojaroupa/controller/ControllerRoupa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lojaroupa/model/Roupa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lojaroupa/model/Roupa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765991728494</updated>
       <workItem from="1765991729901" duration="8411000" />
-      <workItem from="1766074572762" duration="6789000" />
+      <workItem from="1766074572762" duration="7788000" />
     </task>
     <servers />
   </component>

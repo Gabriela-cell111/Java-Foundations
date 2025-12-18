@@ -34,7 +34,7 @@ public class ControllerRoupa {
     public void cadastrarRoupa(@RequestBody DadosRoupa dadosRoupa){
        roupaRepository.save(new Roupa(dadosRoupa));
    }
-   
+
    @GetMapping
     public List<Roupa> listarRoupas(){
         return roupaRepository.findAll();
