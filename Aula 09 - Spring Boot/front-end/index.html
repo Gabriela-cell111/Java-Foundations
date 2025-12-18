@@ -107,7 +107,7 @@
             tipo: document.getElementById('tipo').value,
             tamanho: document.getElementById('tamanho').value,
             quantidade: parseInt(document.getElementById('quantidade').value, 10),
-            valor: parseFloat(document.getElementById('valor').value),
+            preco: parseFloat(document.getElementById('valor').value),
             marca: document.getElementById('marca').value
         };
 
@@ -118,12 +118,13 @@
             },
             body: JSON.stringify(produto)
         })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Erro ao enviar os dados');
-            }
-            return response.json();
-        })
+         .then(response => {
+                if (response.ok) {
+                    document.getElementById("resposta").textContent =
+                        "Produto cadastrado com sucesso!";
+                }
+            })       }
+            
         .then(data => {
             resultado.textContent = JSON.stringify(data, null, 2);
             form.reset();

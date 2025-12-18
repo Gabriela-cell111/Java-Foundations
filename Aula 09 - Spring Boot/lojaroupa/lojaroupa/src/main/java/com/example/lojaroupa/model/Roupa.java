@@ -19,12 +19,19 @@ import lombok.*;
 public class Roupa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private int id;
-   private String marca;
-   private String tipo;
-   private String tamanho;
-   private int quantidade;
-   private double preco;
+    private int id;
+    private String tipo;
+    private String marca;
+    private String tamanho;
+    private int quantidade;
+    private double preco;
 
+    public Roupa(DadosRoupa dadosRoupa) {
+         this.tipo = dadosRoupa.tipo();
+         this.marca = dadosRoupa.marca();
+         this.tamanho = dadosRoupa.tamanho();
+         this.quantidade = dadosRoupa.quantidade();
+         this.preco = dadosRoupa.preco();
 
+    }
 }
