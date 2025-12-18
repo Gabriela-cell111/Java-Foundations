@@ -40,6 +40,12 @@ public class ControllerRoupa {
         return roupaRepository.findAll();
     }
 
+    @DeleteMapping
+    public void deletarRoupa(@RequestParam int id){
+       roupaRepository.delete(new Roupa());
+    }
+    
+
 
 
 }
